@@ -1,0 +1,25 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book Shelves</title>
+    <link rel="stylesheet" href="{% static 'library_app/css/bootstrap.css' %}">
+  </head>
+  <body style="background-color:Moccasin;">
+  <div class="container mt-5">
+    <h1 class="text-center signup-title" style="color:purple;">Bookworm's Heaven</h1>
+    {% block content %}
+    {% endblock content %}
+  </div>
+
+
+    <script src="{% static 'library_app/js/bootstrap.js' %}" ></script>
+    <script src="{% static 'library_app/js/popper.js' %}" ></script>
+    <script src="{% static 'library_app/js/jquery.js' %}" ></script>
+
+
+  </body>
+</html>
